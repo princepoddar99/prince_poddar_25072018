@@ -1,0 +1,433 @@
+body
+{
+	background-color: #d7f2f9;
+	margin: 0;
+	padding: 0;
+}
+li
+{
+	float: left;
+	display: inline-block;
+}
+.tour
+{
+	background-color: #333;
+	height: 69px;
+	border-color: #1a1a1a;
+	border-top: none;
+	border-bottom: none;
+}
+.for_schools
+{
+	background-color: #333;
+	height: 69px;
+	border-color: #1a1a1a;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+}
+.blogs
+{
+	background-color: #333;
+	height: 69px;
+	border-color: #1a1a1a;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	height: 69px;
+	background-color: #333;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.40), inset 0 1px rgba(255,255,255,0.10);
+}
+#logo
+{
+	position: relative;
+	left: 16vw;
+}
+.logo
+{
+	height: 59px;
+	vertical-align: middle;
+	padding-top: 2px;
+	display: inline-block;
+}
+.left-side li a
+{
+	display: inline-block;
+	box-sizing: border-box;
+	border-right-color: #6e6e6e;
+	border-left-color: #6e6e6e;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+.right-side li a
+{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+.join:hover , .login:hover
+{
+	background-color:rgba(200,200,200,0.15);
+}
+.tour:hover , .for_schools:hover , .blogs:hover
+{
+	background-color:rgba(0,0,0,0.4);
+}
+.join
+{
+	border: none;
+	border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    background-color: black;
+    height: 3vw;
+    width: 11vw;
+    text-align: center;
+    position: relative;
+    left: 0.5vw;
+    top: 1vw;
+}
+.join_now
+{ 
+	position: absolute;
+	padding-left: 0.2vw;
+}
+.login
+{
+	border: none;
+	box-sizing: border-box;
+	background-color: black;
+	height: 3vw;
+    width: 5vw;
+    position: relative;
+    left: 1vw;
+    top: 1vw;
+}
+.feedback
+{
+	border: none;
+	box-sizing: border-box;
+	height: 7vw;
+	width: 2.3vw;
+	background-image: url(feedback.png);
+	background-size: 100% 100%;
+	position: fixed;
+	top: 20vw;
+	left: 0;
+	cursor: pointer;
+}
+.bigbox1
+{
+	height: 35vw;
+	width: 65vw;
+	margin: auto;
+	border: 0.1vw solid white;
+	box-sizing: border-box;
+	margin-top: 1px;
+	background-image: url(bb1.jpg);
+	background-position: fixed;
+	background-size: 100% 100%;
+	border-radius: 0.3vw;
+	box-shadow: 0vw 0.1vw 0.2vw 0.1vw rgba(100,100,100,0.2);
+}
+.head
+{
+	font-size: 4vw;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	top: 1.5vw;
+	left: 2.5vw;
+	width: 35vw;
+	font-family: ms;
+	color: #e21e45;
+	font-family: helvetica;
+}
+.describe
+{
+	font-family: times new roman;
+	font-size: 2vw;
+	color: #595454;
+	text-shadow: 0.3px -0.3px #3a3838;
+	text-align: center;
+	position: relative;
+	left: 2.8vw;
+	top: 2.5vw;
+	width: 32vw;
+}
+.demo
+{
+	position: relative;
+	top: 3.8vw;
+	width: 10.5vw;
+	height: 3.6vw;
+	border-radius: 0.20vw;
+	left: 8vw;
+	background-color: #41ced1;
+	border:0.1vw solid #3ca5a0;
+}
+.video
+{
+	position: relative;
+	top: 3.8vw;
+	width: 10.5vw;
+	height: 3.6vw;
+	border-radius: 0.20vw;
+	left: 9vw;
+	background-color: white;
+	border:0.1vw solid #a8d0df;
+}
+.demo:hover
+{
+	opacity: 0.9;
+	cursor: pointer;
+}
+.video : hover
+{
+	opacity: 0.7;
+	cursor: pointer;
+}
+.left
+{
+	position: absolute;
+	left: 58vw;
+	top: 9.9vw;
+}
+.right
+{
+	position: relative;
+	left: 42vw;
+	top: -12.6vw;
+}
+.smallbox
+{
+	padding: 1vw;
+	box-sizing: border-box;
+	height: 32vw;
+	width: 20.2vw;
+	position: relative;
+	top: -22.0vw;
+	left: 43.6vw;
+	line-height: 1.9vw;
+	background-color: rgba(241,241,241,1.0);
+	border-radius: 0.5vw;
+}
+h1
+{
+	position: absolute;
+	top:-1.2vw;
+	left:0vw;
+	background-color:#9ae12f;
+	width:20.2vw;
+	height:3vw;
+	text-align:center;
+	padding-top:1vw;
+	font-size:1.85vw;
+	border:0.5px solid #6da81d;
+	 border-radius:.5vw .5vw 0vw 0vw;
+	 font-family:mst;
+	 
+}
+.fb
+{
+	position:absolute;
+	top:5vw;
+	left:0.7vw;
+	background-image: url(fb.png);
+	border: 0.1px solid black;
+}	  
+.google
+{
+    position:absolute;
+   	top:5vw;
+	left:10.8vw;
+	background-image: url(google.png);
+	border-image: url(google.png) 0.1px solid #021a40;
+}
+.or
+{
+	position: relative;
+	top: 3.9vw;
+	left: 8.8vw;
+}
+.b1 , .b2 , .b3 , .b4 , .b5
+{
+	font-family: Georgia;
+	font-size: 0.85vw;
+	font-style: oblique;
+	color: black;
+} 
+.b1
+{
+	position: relative;
+	top: 3.2vw;
+	left: 0.1vw;
+}
+.b2
+{
+	position: relative;
+	top: -0.6vw;
+	left: 9.4vw;
+}
+.b3
+{
+    position: relative;
+	top: -0.1vw;
+	left: 0.1vw;
+}
+.b4
+{
+	 position: relative;
+	top: 0.1vw;
+	left: 0.1vw;
+}
+.b5
+{
+	 position: relative;
+	top: 1.5vw;
+	left: 0.1vw;
+}
+.choice
+{
+	border-radius: 0.5vw;
+}
+.b6
+{
+	font-family:hel;
+    color:#727375;
+    font-size:0.9vw;
+    position:relative;
+    top:2.5vw;
+}
+.join_terms
+{
+	position: relative;
+	top: 0.8vw;
+    left: 12.0vw;
+    border: 0.08vw solid #2c2f30;
+	border-radius: 0.8vw;
+	background-color: #addff7;
+}
+.bigbox2
+{
+	border:0.1vw solid #ffffff;
+	border-radius:.5vw;
+    position :absolute;
+	width:65vw;
+	height:46vw;
+	top:42.75vw;
+	left:17.0vw;
+	box-shadow:0.1vw 0.25vw 0vw 0vw #c5e4ec;
+	background-color: white;
+	font-family: helvetica;
+}
+.header
+{
+	color: #dd004c;
+	position: absolute;
+	top: 1vw;
+	left: 2vw;
+	font-size: 2.2vw;
+	font-family: helvetica;
+}
+.sub_headings:link, .sub_headings:visited
+{
+    font-size:1.7vw;
+    color:black;
+    text-decoration:none;
+}
+
+.sub_headings:hover
+{
+    text-decoration:underline;
+}
+.headings
+{
+    height:40vw;
+    width:30vw;
+    font-size:1.3vw;
+    z-index:1;
+    position:relative;
+    top:5vw;
+    left:10vw;
+}
+.Learn_more:link , .Learn_more:visited
+{
+    font-size:1vw;
+    color:#5c86d1;
+    text-decoration:none;
+    font-weight:bold;
+}
+.i1
+{
+	position: absolute;
+	top:5vw;
+	left: 2vw;
+}
+.i2
+{
+	position: absolute;
+	top:19vw;
+	left: 2vw;
+}
+.i3
+{
+	position: absolute;
+	top:33vw;
+	left: 2vw;
+}
+footer
+{
+	width: 66vw;
+	margin: auto;
+	margin-top: 3vw;
+	position: relative;
+	left: 2.2vw;
+	top: 47vw;
+}
+table
+{
+	font-size: 0.85vw;
+}
+th
+{
+	padding:0;
+	text-align: left;
+	padding-left: 2.5vw;
+	padding-bottom: 0.8vw;
+}
+td
+{
+	padding: 0.1vw;
+	padding-left: 2.5vw;
+	color: rgb(74,106,130);
+	cursor: pointer;
+}
+td a
+{
+	text-decoration: none;
+	color: #658ab3;
+}
+.fbl
+{
+	border: none;
+	height: 1.9vw;
+	width: 6vw;
+	position: absolute;
+	top: 2.1vw;
+	left: 25.7vw;
+}
